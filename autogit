@@ -1,0 +1,8 @@
+#!/bin/bash
+#//Enter Your Data First//                                                                                                                                                 
+Token=$(echo "[Token]");
+UserName=$(echo "[User Name]");
+RepoName=$(echo "Repository Name");
+git add $1;
+git commit -m \"$2\";
+git push https://$Token@github.com/$UserName/$RepoName.git;

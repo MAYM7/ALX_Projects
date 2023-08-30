@@ -1,4 +1,8 @@
-#!/bin/sh                                                         \\//Enter Token, UserName and RepoName before use\\//                                                                                      
+#!/bin/sh  
+
+
+**Enter Token, UserName and RepoName before use**
+
 Token=$(echo "[Token]");
 UserName=$(echo "[User Name]");
 RepoName=$(echo "[Repository name]");

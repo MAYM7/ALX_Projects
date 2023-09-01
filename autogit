@@ -7,5 +7,5 @@ Token=$(echo "[Token]");
 UserName=$(echo "[User Name]");
 RepoName=$(echo "[Repository name]");
 git add $1;
-git commit -m $2;
+git commit -m $2\ $3\ $4\ $5\ $6\ $7\ $8\ $9;
 git push https://$Token@github.com/$UserName/$RepoName.git;
